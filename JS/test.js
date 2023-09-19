@@ -1,0 +1,3 @@
+ // ES6 syntax 
+ import * as THREE from 'three'
+ console.log(THREE.Scene)

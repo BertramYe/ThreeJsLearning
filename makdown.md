@@ -1,6 +1,3 @@
-# ThreeJsLearning
-learning the Three.js , show the how to use the Three.js
-
 1. the download address for three.js
 https://github.com/mrdoob/three.js/releases/
 
@@ -13,6 +10,6 @@ https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 other Chinese ducuments recommend:
 http://www.webgl3d.cn/
 
-4. debug and deployment server
-live-server
+4. deploment/debug server
+live server(vscode plugin)
 node.js

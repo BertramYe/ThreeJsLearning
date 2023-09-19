@@ -1,0 +1,5 @@
+three.js-r156/*
+!three.js-r156/build
+!three.js-r156/examples
+three.js-r156/examples/*
+!three.js-r156/examples/jsm

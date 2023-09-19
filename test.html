@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>import three.js</title>
+    <!-- <script src="./three.js-r156/build/three.js"></script> -->
+</head>
+<body>
+    
+    <!-- Direct import -->
+    <script type="importmap">
+        {
+            "imports": {
+                
+                "three": "./three.js-r156/build/three.module.js",
+                "three/addons/": "./three.js-r156/examples/jsm/"
+            }
+        }
+    </script>
+
+
+    <!-- CDN import-->
+    <!-- <script type="importmap">
+        {
+            "imports": {
+                
+                "three": "https://unpkg.com/three/build/three.module.js",
+                "three/addons/": "./three.js-r156/examples/jsm/"
+            }
+        }
+    </script> -->
+
+<script type="module" src="./JS/test.js">
+    // // ES6 syntax 
+    // import * as THREE from 'three'
+    // console.log(THREE.Scene)
+</script>
+
+</body>
+</html>
